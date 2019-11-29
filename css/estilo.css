@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	color: #777;
+}
+
+h1{
+	font-size: 36px;
+	color: #BE008A;
+	font-weight: bold;
+
+}
+
+
+ h3, h5{
+	font-size: 24px;
+	color: #BE008A;
+	font-weight: bold;
+}
+
+#team img{
+	margin-top: -5px;
+}
+
+#team i {
+	font-size: 18px;
+	color: #BE008A;
+}
+#team p{
+	font-weight: 500;
+	color: #BE008A;
+}
+
+#team .card {
+	border-radius: 0;
+	box-shadow: 5px 5px 15px #BE008A;
+	transition: all 0.3s case-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;}
+
+#team .card:hover{
+	background: #BE008A;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#team .card:hover h3, #team .card:hover i, #team .card:hover p, #team .card:hover h5{
+	color:#fff;
+}
+
+
+./*=============================
+=            Fondo            =
+=============================*/
+section .im-color {
+	background-color: #BE008A;
+}
+
+/*=====  End of Fondo  ======*/
